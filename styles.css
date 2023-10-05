@@ -3,3 +3,8 @@
   flex-wrap: wrap;
   justify-content: space-between;
 }
+.flexbox {
+      width: 100px;
+      height: 100px;
+      background-color: lightblue;
+      margin: 10px;
