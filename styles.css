@@ -3,8 +3,11 @@
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.flexbox {
-      width: 100px;
-      height: 100px;
-      background-color: lightblue;
-      margin: 10px;
+
+.item {
+  width: calc(33.33% - 10px); /* 33.33% width with 10px margin */
+  height: 100px;
+  background-color: lightblue;
+  margin: 5px; /* Adjust margin as needed */
+  box-sizing: border-box; /* Ensure margin doesn't affect the width */
+}
