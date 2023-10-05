@@ -1,28 +1,5 @@
-.holder{
-	display:flex;
-	justify-content:space-around;
-}
-#row-1{
-	width:50px;
-	height:50px;
-	background-color:red;
-	text-align:center;
-}
-#row-2{
-	width:50px;
-	height:50px;
-	background-color:red;
-	text-align:center;
-}
-#row-3{
-	width:50px;
-	height:50px;
-	background-color:red;
-	text-align:center;
-}
-#row-4{
-	width:50px;
-	height:50px;
-	background-color:red;
-	text-align:center;
+#holder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
