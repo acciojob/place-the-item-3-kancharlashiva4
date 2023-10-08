@@ -2,9 +2,11 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+	flex-direction:row;
 }
 
 .item {/* 33.33% width with 10px margin */
+	width:200px;
   height: 100px;
   background-color: lightblue;
   margin: 5px; /* Adjust margin as needed */
