@@ -2,11 +2,9 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  flex-direction:column;
 }
 
-.item {
-  width: calc(33.33% - 10px); /* 33.33% width with 10px margin */
+.item {/* 33.33% width with 10px margin */
   height: 100px;
   background-color: lightblue;
   margin: 5px; /* Adjust margin as needed */
